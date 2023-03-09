@@ -33,3 +33,5 @@ toolie-ui-mock/.next/cache/webpack/client-development/9.pack
 toolie-ui-mock/.next/cache/webpack/client-development/index.pack
 toolie-ui-mock/.next/cache/webpack/client-development/index.pack.old
 *.pack
+*.json
+*.old
