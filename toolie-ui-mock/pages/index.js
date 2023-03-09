@@ -34,7 +34,7 @@ export default function Home() {
         <Header>
 
           Toolie
-
+          
           <Profile>
 
             <Name>{user && user.name}</Name>
@@ -50,17 +50,26 @@ export default function Home() {
 
           <Link href='/search' >
             <ActionButton>
-              <ActionButtonImage src='https://i.ibb.co/cyvcpfF/uberx.png' />
+              <ActionButtonImage src='https://cdn.pixabay.com/photo/2015/07/28/20/55/tools-864983_960_720.jpg' />
               List an Item
             </ActionButton>
           </Link>
 
+          <Link href='/reservation'>
           <ActionButton>
             <ActionButtonImage src='https://i.ibb.co/5RjchBg/uberschedule.png' />
             Reserve
           </ActionButton>
+          </Link>
+
           
         </ActionButtons>
+        <Link href='/about' >
+            <ActionButton>
+              <ActionButtonImage src='https://img.freepik.com/free-vector/illustration-web-design-template_53876-37648.jpg?w=900&t=st=1678309835~exp=1678310435~hmac=426afa896f6b7451986ff0a01e1349fe60f5afa3a3facd123a0d7a041e97d95a' />
+              Contact Form
+            </ActionButton>
+          </Link>
 
         <InputButton>
           My Items

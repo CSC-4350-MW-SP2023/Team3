@@ -30,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about.js"
+    ],
     "/confirm": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/confirm.js"
+    ],
+    "/reservation": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/reservation.js"
     ],
     "/search": [
       "static/chunks/webpack.js",

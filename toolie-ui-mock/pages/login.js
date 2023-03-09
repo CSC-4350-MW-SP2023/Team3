@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { signInWithPopup, onAuthStateChanged } from 'firebase/auth';
 import { auth, provider } from '../firebase';
-import tw from 'tailwind-styled-components/dist/tailwind';
+import tw from 'tailwind-styled-components/dist/tailwind-styled-components.cjs';
 
 function Login() {
 
@@ -18,9 +18,9 @@ function Login() {
 
     return (
         <Wrapper>
-            <Title>Toolie</Title>
-            <Title>Login to access your account</Title>
-            <HeadImage src='https://www.pngkey.com/png/full/332-3327509_toolbox-hand-tool-toy-tool-box-clip-art.png' />
+            <Title class="text-center">Toolie</Title>
+            <Title class="text-center">Login to access your account</Title>
+            <HeadImage class="image-center Login_logo"  src='https://www.pngkey.com/png/full/332-3327509_toolbox-hand-tool-toy-tool-box-clip-art.png'/>
             <SignInButton onClick={() => signInWithPopup(auth, provider)}>Sign in with Google</SignInButton>
         </Wrapper>
     )
@@ -44,5 +44,6 @@ const Title = tw.div`
 `
 
 const HeadImage = tw.img`
-    object-contain w-full
+    object-scale-down
+    
 `

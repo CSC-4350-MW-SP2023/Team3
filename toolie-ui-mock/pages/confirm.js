@@ -9,8 +9,8 @@ function Confirm() {
     const router = useRouter();
     const { pickup, dropoff } = router.query;
 
-    const [pickupCoordinates, setPickupCoordinates] = useState([0, 0]);
-    const [dropoffCoordinates, setDropoffCoordinates] = useState([0, 0]);
+    const [pickupCoordinates, setPickupCoordinates] = useState([-77.0363,38.8952 ]);
+    const [dropoffCoordinates, setDropoffCoordinates] = useState([-77.0363,38.8952 ]);
 
     const getPickupCoordinates = (pickup) => {
         fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${pickup}.json?` + 

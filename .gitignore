@@ -1,0 +1,8 @@
+.next
+node_modules
+.eslintrc.json
+firevase.js
+next.config.js
+package.json
+postcss.config.js
+tailwind.config.js

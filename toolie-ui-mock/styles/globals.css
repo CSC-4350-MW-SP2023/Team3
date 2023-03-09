@@ -10,7 +10,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.Login_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 * {
   box-sizing: border-box;
 }
+
+
+

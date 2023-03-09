@@ -31,7 +31,7 @@ function Search() {
                     />
                     <Input
                         placeholder='Enter Item location'
-                        value={pickup}
+                        value={dropoff}
                         onChange={e => setPickup(e.target.value)}
                     />
                     <ConfirmContainer>
